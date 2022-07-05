@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "973014791340",
+    "project_id": "me-estore",
+    "storage_bucket": "me-estore.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973014791340:android:c00137ee7f273096fcdb09",
+        "android_client_info": {
+          "package_name": "com.ahmeddz.ME_ESTORE"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973014791340-6en0qqo4568fkbim94p77k6s9ed1r1b0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyClSotyf1wbWpUg3WsF2HIaPVB0eU1QCWU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973014791340-6en0qqo4568fkbim94p77k6s9ed1r1b0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
