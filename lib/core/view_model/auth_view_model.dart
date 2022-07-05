@@ -13,7 +13,7 @@ class AuthViewModel extends GetxController {
 
   String email, password, name;
 
-  Rx<User> _user = Rx<User>();
+  Rxn<User> _user = Rxn<User>();
 
   String get user => _user.value?.email;
 
@@ -54,7 +54,8 @@ class AuthViewModel extends GetxController {
   }
 
   void facebookSignInMethod() async {
-    final AccessToken result = await FacebookAuth.instance.login();
+    final AccessToken result =
+        await FacebookAuth.instance.login() as AccessToken;
 
     final FacebookAuthCredential facebookAuthCredential =
         FacebookAuthProvider.credential(result.token);
